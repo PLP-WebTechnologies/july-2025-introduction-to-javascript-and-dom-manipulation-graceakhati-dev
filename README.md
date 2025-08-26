@@ -1,63 +1,62 @@
-# 🚀 Assignment: Mastering JavaScript Fundamentals
+🌸 WanderJoy – Web Development Assignment
+📖 Project Overview
 
-Welcome to your next step toward JavaScript mastery! In this assignment, you'll explore essential concepts that form the backbone of interactive, dynamic web pages—functions, loops, and the Document Object Model (DOM). Ready to code like a pro? Let’s dive in.
+This project, WanderJoy, was created as part of my software development training assignment.
+The goal is to demonstrate basic web development skills using HTML, CSS, and JavaScript.
 
----
+It includes:
 
-## 🎯 Part 1: Mastering JavaScript Basics
+A greeting alert when the page loads.
 
-Start with the building blocks of JavaScript—variables, data types, operators, and conditionals. You’ll write a few simple programs that capture user input, make decisions using `if/else`, and output results using `console.log()` or by modifying the webpage content.
+An interactive welcome text that changes when clicked.
 
-**Goal:** Demonstrate your understanding of how JavaScript flows, processes logic, and interacts with data.
+A light/dark theme toggle button.
 
----
+A simple contact form (structure only).
 
-## ❤️ Part 2: JavaScript Functions — The Heart of Reusability
 
-Functions are your best friends in programming. Write a few custom functions that take inputs, process them, and return or display results. You’ll also create functions for common tasks (like calculating totals, formatting strings, or toggling content).
 
-**Goal:** Build reusable blocks of logic that make your code cleaner, smarter, and DRY (Don't Repeat Yourself).
+🛠️ Technologies Used
 
----
+HTML5 → Page structure
 
-## 🔁 Part 3: JavaScript Loops — Embrace the Power of Repetition!
+CSS3 → Styling and theme design
 
-Use `for`, `while`, or `forEach` loops to solve repetitive tasks like iterating through arrays, generating dynamic content, or simulating simple countdowns or animations.
+JavaScript (Vanilla JS) → Interactivity
 
-**Goal:** Practice controlling flow with repetition and iteration—key to working with lists, animations, and form elements.
+⚡ How to Test the Project
 
----
+Open the index.html file in your browser.
 
-## 🌐 Part 4: Mastering the DOM with JavaScript
+Observe the welcome alert popup.
 
-It’s time to bring your page to life! Use JavaScript to select elements, respond to user actions, and dynamically update the content of your web page. Tasks may include changing text, toggling classes, listening to click events, or creating elements on the fly.
+Click on the text “Welcome to WanderJoy 🌸” → it should change to “✨ You’re now exploring WanderJoy! ✨”.
 
-**Goal:** Show your skill in making a static HTML page interactive using pure JavaScript and DOM manipulation.
+Use the “Toggle Theme” button → switches between light and dark mode.
 
----
+Scroll to the bottom to view the demo contact form.
 
-## Deliverables
+📂 Project Structure
+WanderJoy/
+│
+├── index.html   # Main webpage
+├── style.css    # CSS styling (light/dark mode)
+├── script.js    # JavaScript interactivity
+└── README.md    # Project documentation
 
-* A single project folder containing:
+🎯 Learning Outcomes
 
-  * `index.html` — your structured HTML content
-  * `style.css` — (optional) if you'd like to style your content
-  * `script.js` — your JavaScript file including:
+Through this project, I practiced:
 
-    * Variable declarations and conditionals (Part 1)
-    * At least 2 custom functions (Part 2)
-    * At least 2 loop examples (Part 3)
-    * At least 3 DOM interactions (Part 4)
+Linking HTML, CSS, and JavaScript together.
 
-Each part of the assignment should be clearly commented and organized.
+Using JavaScript events (onclick) for interactivity.
 
----
+Creating a theme toggle with CSS class switching.
 
-## Outcome
+Writing a professional README file for documentation.
 
-* Clear understanding of variables, conditionals, functions, loops, and DOM methods
-* Code readability and comments explaining your logic
-* Effective use of functions and loops to reduce repetition
-* DOM manipulation that improves interactivity
-* Clean structure and consistent indentation
+👩🏽‍💻 Author
 
+Name: Grace Akhati
+Course: Power Learn Project – Software Development Cohort (July 2025)

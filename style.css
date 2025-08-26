@@ -1,0 +1,238 @@
+/* ======== RESET ======== */
+/* Remove default browser margins/padding, make box-sizing consistent */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Base font */
+    background-color: #fef9f4; /* Soft cream background */
+    color: #333; /* Dark grey text for readability */
+    line-height: 1.6; /* Comfortable line spacing */
+}
+
+/* ======== TYPOGRAPHY ======== */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif; /* Headings use modern sans-serif */
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #ff9800; /* Warm orange heading color */
+}
+
+.accent-text {
+    font-family: 'Dancing Script', cursive; /* Elegant accent style */
+    font-size: 1.3rem;
+    color: #ff6f61; /* Coral tone for special text */
+}
+
+p {
+    margin-bottom: 1rem; /* Spacing below paragraphs */
+}
+
+/* ======== LINKS ======== */
+a {
+    color: #ff6f61; /* Coral links */
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+a:hover {
+    color: #ff4500; /* Darker orange on hover */
+}
+
+/* ======== NAVIGATION ======== */
+header {
+    position: sticky; /* Sticks to top of page when scrolling */
+    top: 0;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    z-index: 1000; /* Stays above other elements */
+}
+
+nav {
+    display: flex; /* Horizontal layout for nav items */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff9800; /* Warm orange branding */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none; /* Remove bullet points */
+}
+
+.nav-links li {
+    margin-left: 1.5rem; /* Space between nav items */
+}
+
+.nav-links a {
+    font-weight: 500;
+}
+
+/* ===== HERO SECTION  ===== */
+/* More refined hero section with a Pexels travel image and blur overlay */
+.hero {
+    position: relative;
+    height: 90vh; /* Almost full screen height */
+    background: url('https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark semi-transparent overlay */
+    backdrop-filter: blur(3px); /* Adds a blur effect for luxury feel */
+}
+
+.hero-content {
+    position: relative; /* Stay above overlay */
+    color: white;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn-primary {
+    background-color: #ff9800; /* Warm orange */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+    background-color: #ff6f61;
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* ======== BUTTONS ======== */
+/* Main call-to-action button style */
+.btn-primary {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for buttons — lift and shadow */
+.btn-primary:hover {
+    background-color: #ff6f61; /* Keep coral tone */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+/* ======== TABLES ======== */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin: 1.5rem 0;
+}
+
+th, td {
+    padding: 0.75rem;
+    border: 1px solid #ddd; /* Light grey border */
+}
+
+th {
+    background-color: #ff9800; /* Warm orange header */
+    color: #fff;
+}
+
+/* ======== FORMS ======== */
+form {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 0.75rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem; 
+}
+
+button {
+    margin-top: 1rem;
+    background-color: #ff9800;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6f61;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+/* ======== FOOTER ======== */
+footer {
+    background-color: #ff6f61; /* Coral background */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* Default (light) theme */
+body {
+  background-color: #fdfcf7;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark theme for WanderJoy */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #fdfcf7;
+}
+
+
